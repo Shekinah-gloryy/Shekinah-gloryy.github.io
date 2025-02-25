@@ -12,7 +12,7 @@ html, body {
 #Topwrapper {
     background-color: whitesmoke;
     color: #945c38;
-    height: calc(100vh - 25px);
+    height: calc(100vh - 75px);
     /* 100vh = the entire screen height, 100px tells comp to remove that from 100vh */
     /* height: 90vh; */
 }
@@ -24,12 +24,13 @@ h1 {
      /* font size will take up 10% of the total width */
     font-size: 5vw; 
     text-align: center;
-    padding-top: 300px;
+    padding-top: 270px;
     margin-bottom: 0;
 }
 
 
 #introtext{
+    color: #e0af8e;;
     font-family: 'Courier New', Courier, monospace;
     font-weight: normal;
     font-style: normal;
@@ -39,7 +40,7 @@ h1 {
     text-align: center;  
     text-decoration: none;
     /* inherit makes it take the color of surrounding text */
-    color: inherit;
+    /* color: inherit; */
 }
 
 
@@ -72,26 +73,32 @@ h1 {
 
 
 #Bottomwrapper {
-    background-color: whitesmok;
+    background-color: whitesmoke;
     color: #945c38;
-    height: 50vh;  
+    /* height: 25vw;  */
+    /* margin-top: 20px; */
+    font-size: 10px;
 }
 
+
 #outrotext{ 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Coming Soon", serif;
     font-weight: normal;
     font-style: normal;
     text-align: center;
-    padding-top: 280px;
     text-decoration: none;
+    font-size: 2vw; 
     /* inherit makes it take the color of surrounding text */
-    color: inherit;
-    
+    color:#e0af8e;
+    margin-top: 20vw;
+    margin-bottom: 0px;
 }
 
 #outrotext a:hover {
-    color: rgb(150, 140, 140);
+    color: black;
 }
+
+
 
 /*  */
 /*  */
@@ -196,4 +203,46 @@ table td {
     color: inherit;
 }
 
+#WR_container_wrapper {
+    margin-bottom: 20px;
+}
 
+.smallimage {
+    width: 100px;
+    margin-left: 45vw;
+
+}
+
+#defaultW {
+    position: absolute;
+    clip-path: polygon (10% 10%, 50% 0%,50% 100%, 10% 90%, 0% 50%);
+}
+
+#defaultR {
+    position: absolute;
+    clip-path: polygon(50% 0%, 90% 10%, 100% 50%, 90% 90%, 50% 100%);
+}
+
+.hoverW {
+    opacity: 0;
+    width: 100px;
+    position: absolute;
+    margin-left: 45vw;
+    pointer-events: none;
+}
+
+.hoverR {
+    opacity: 0;
+    width: 100px;
+    position: absolute;
+    margin-left: 45vw;
+    pointer-events: none;
+}
+
+#defaultW:hover~.hoverW {
+    opacity: 1;
+}
+
+#defaultR:hover~.hoverR {
+    opacity: 1;
+}

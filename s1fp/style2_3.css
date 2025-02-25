@@ -1,19 +1,19 @@
 html, body {
     /* background-color: #FBF2ED; */
-    background-color: whitesmoke;
+    background-color: #945c38;
     margin: 0;
 }
 /*  */
 /*  */
 #Topwrapper2 {
     background-color: #945c38;
-    color: whitesmoke;
+    color: white;
     height: calc(100vh);
     /* margin-top: 0px; */
 }
 
 #Topwrapper3 {
-    background-color: whitesmoke;
+    background-color: #945c38;
     color: black;
     height: calc(10vh);
     margin-top: 0px;
@@ -31,7 +31,7 @@ h1 {
  }
 
  #introtext2{
-    color: black;
+    color: white;
     font-family: "Coming Soon", serif;
     font-weight: 400;
     font-style: normal;
@@ -41,7 +41,10 @@ h1 {
     text-align: center;  
     text-decoration: none; 
     /* inherit makes it take the color of surrounding text */
-    color: inherit;
+}
+
+#introtext2 a:hover {
+    color: black;
 }
 /*  */
 /*  */
@@ -75,8 +78,8 @@ h1 {
 
 
 #Bottomwrapper {
-    background-color: whitesmoke;
-    color: #945c38;
+    background-color: #945c38;
+    color: white;
     height: 20vh;
     /* 100vh = the entire screen height, 100px tells comp to remove that from 100vh */
     /* height: 90vh; */
