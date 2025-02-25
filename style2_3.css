@@ -1,0 +1,219 @@
+html, body {
+    /* background-color: #FBF2ED; */
+    background-color: #945c38;
+    margin: 0;
+}
+/*  */
+/*  */
+#Topwrapper2 {
+    background-color: #945c38;
+    color: white;
+    height: calc(100vh);
+    /* margin-top: 0px; */
+}
+
+#Topwrapper3 {
+    background-color: #945c38;
+    color: black;
+    height: calc(10vh);
+    margin-top: 0px;
+}
+
+h1 {
+    font-family: "Coming Soon", serif;
+    font-weight: 400;
+    font-style: normal;
+     /* font size will take up 10% of the total width */
+    font-size: 5vw; 
+    text-align: center;
+    padding-top: 300px;
+    margin-bottom: 0; 
+ }
+
+ #introtext2{
+    color: white;
+    font-family: "Coming Soon", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vw; 
+    margin-bottom: 50px;
+    margin-top: 0px;
+    text-align: center;  
+    text-decoration: none; 
+    /* inherit makes it take the color of surrounding text */
+}
+
+#introtext2 a:hover {
+    color: black;
+}
+/*  */
+/*  */
+
+
+
+#bookwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 93%;
+    margin: 0 auto;
+    /* margin - auto, helps it be center since it knows how wide it is  */
+}
+
+.booktile {
+    font-family: "Coming Soon", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 15%;
+    padding: 4%;
+    margin: 1%;
+    background-color:#945c38;
+    
+}
+
+.booktile img {
+    width: 100%;
+}
+/*  */
+/*  */
+
+
+#Bottomwrapper {
+    background-color: #945c38;
+    color: white;
+    height: 20vh;
+    /* 100vh = the entire screen height, 100px tells comp to remove that from 100vh */
+    /* height: 90vh; */
+}
+
+#Bottomwrapper2 {
+    background-color: #E8D4C6;
+    color: #945c38;
+    height: 20vh;
+    /* 100vh = the entre screen height, 100px tells comp to remove that from 100vh */
+    /* height: 90vh; */
+}
+
+
+#outrotext{ 
+    font-family: "Coming Soon", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 280px;
+}
+
+#outrotext2{ 
+    font-family: "Coming Soon", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 280px;
+    background-color: #E8D4C6;
+}
+
+
+/* x */
+/* Run */
+
+#TWIUTB {
+    background-color:#E8D4C6;
+    /* min-height: 100vh; */
+}
+
+
+#TWIUTB_TEXT {
+    font-family: "Coming Soon", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(80, 76, 76);
+    font-size: 5vw; 
+    padding-top: 300px;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-bottom: 55vh;
+
+}
+
+
+/* Bok 5: Three Things I Know Are True */
+#MyThreeThings {
+    /* min-height: 100vh; */
+    font-family: "Coming Soon", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(80, 76, 76);
+    font-size: 2.5vw; 
+    padding-top: 300px;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+#Hidden:hover::after {
+    font-family: "Coming Soon", serif;
+    font-weight: 400;
+    font-style: normal;
+    content: "and you dont either";
+    color: red;
+    font-size: 2.5vw;
+}
+
+
+/*  */
+/* x */
+
+
+/* Everything below here is in the actual books  */
+
+#BookTitleWrapper {
+    background-color:white;
+    min-height: 100vh;
+}
+
+#BookTitle {
+    font-family: "Coming Soon", serif;
+    font-weight: 400;
+    font-style: normal;
+    /* the number before 5vw allows us to establish a min font size */
+    font-size: calc(12px + 5vw); 
+    text-align: center;
+    padding-top: 70px;
+}
+
+/*  */
+/*  */
+#bookwrapper2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.booktile2 {
+    width: 15%;
+    padding: 4%;
+    margin: 1%;
+    margin-left:35%;
+    background-color:#E8D4C6;
+}
+
+.booktile2 img {
+    width: 100%;
+}
+
+
+
+.phototile {
+    font-family: "Coming Soon", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 40%;
+    padding: 0.5%;
+    margin: 0%;
+    margin-top: 0px;
+    margin-left: 25%;
+    background-color:white;
+    
+}
+
+.phototile img {
+    width: 100%;
+}
