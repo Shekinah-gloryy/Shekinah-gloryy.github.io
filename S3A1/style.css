@@ -1,0 +1,70 @@
+html{
+    color:black;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    color:white;
+  }
+  
+  main{
+    color: white;
+    
+  }
+  
+  
+  #title {
+      font-size: 48px;
+      font-family: 'Courier New', Courier, monospace; 
+      text-align: center;
+      margin-top: 20px;
+      color: #36ff5a;
+    }
+  
+  #Everything{
+    
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  #fakebutton {
+    display: none;
+    padding: 10px 20px;
+    background-color: lightgreen;
+    color: brown;
+    font-size: 20px;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  
+  
+  
+  #Jumpscare {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    animation: jump 2s 1 forwards;
+    animation-delay: 2s;
+    background-size: contain;
+  }
+  
+  @keyframes jump {
+    0% {opacity: 0;}
+    99% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+   *:has(#BoardBase:not(:hover)) ~ #Jumpscare {
+    background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXRqcjF6bGl6YW85Ynh2a2Z5bTFxc2MxcTlmbXl3YWgwNThoNXVobCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tPbA1aETQSMboC4/giphy.gif');
+  }
+  

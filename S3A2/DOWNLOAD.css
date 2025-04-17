@@ -1,0 +1,190 @@
+
+
+
+html{
+background: #164c63;
+background: linear-gradient( rgb(255, 255, 255) 25%, rgb(22, 31, 22) 100%);
+height:450vh;
+}
+
+
+
+body{
+  color:rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Topwrapper {
+  background-color: black;
+  height: calc(100vh);
+  width: 100vw;
+}
+
+#Topwrapper h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  font-size: 3vw; 
+  text-align: center;
+  padding-top: 200px;
+}
+
+#Topwrapper button {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+  font-size: 3vw; 
+  text-align: center;
+}
+
+
+#rick-download img{
+
+  width: 20vh;
+}
+
+
+.CENTER {
+  text-align: center;
+}
+
+.CENTER img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+/* defines the styles of ALL buttons */
+
+.fake-button {
+
+  background-color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  transition: background-color 0.3s;
+}
+
+
+
+.fake-button:hover {
+  background-color: #e0e0e0d2;
+}
+
+
+.fake-ad{
+  display: flex;
+  margin-left: 5vw;
+  margin-right: 10vw;
+  color: rgb(49, 49, 104);
+  width: 80vw;
+  text-align: center;
+  height: auto;
+  font-family: Arial, sans-serif;
+  justify-content: space-evenly;
+
+}
+
+.real{
+
+  background-color: #ff6a00;          
+  color: #fff;                       
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(255, 106, 0, 0.4);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+.real:hover {
+  background-color: #ff7f24;         /* Lighter orange on hover */
+  transform: translateY(-2px);       /* Slight lift */
+  box-shadow: 0 6px 14px rgba(255, 106, 0, 0.6);
+}
+
+.real:active {
+  transform: translateY(1px);        /* Click press effect */
+  box-shadow: 0 2px 6px rgba(255, 106, 0, 0.4);
+}
+
+
+
+
+/* Text Styles */
+
+h1{
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-align: center; 
+  margin-top: 20px;  
+}
+
+h2{
+  
+  font-family: Arial, sans-serif;
+  font-size:4vh;
+}
+
+h3{
+ font-family: Arial, sans-serif;
+ font-size: 2.5vh;
+ padding-left:10%;
+ padding-right:10%; 
+}
+
+h4{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h5{
+  font-family: Arial, sans-serif;
+  font-size: 2vh;
+  padding-left:10%;
+  padding-right:10%; 
+  
+}
+
+
+/* Baron's Section */
+#demo {
+ height: fit-content;
+ color:white;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ row-gap: 100px;
+}
+
+.demo_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10vh;
+  padding-top: 5vh;
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+
+.demo_item h2 {
+  color: black;
+}
+
+.demo_item img {
+  max-height: 60vh;
+}
+
