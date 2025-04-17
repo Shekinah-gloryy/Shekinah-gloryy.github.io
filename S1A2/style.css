@@ -1,0 +1,209 @@
+#wrapper {
+  position: relative;
+  width: 800px;
+  height: 700px;
+  background-color: lightgray;
+  overflow: hidden;
+  margin-top: 20px; 
+}
+
+#GreenBook {
+  background-color: rgb(4, 51, 25);
+  color: white;
+  width: 425px;
+  height: 420px;
+  padding: 40px;
+  margin: 60px;
+  font-size: 60px;
+  position: absolute;
+}
+
+#BookID {
+  font-size: 4.5px;
+  position: absolute;
+}
+
+#CardBox {
+  width: 170px;
+  height: 200px;
+  top: 320px;
+  left: -35px;
+  background-image: radial-gradient(#E51414 40%, transparent 40%);
+  background-size: 10px 10px;
+  background-color: #FFFFFF;
+  position: absolute;
+}
+
+#CardFace{
+  width: 120px;
+  height: 50px;
+  top: 30px;
+  left: 25px;
+  background-image: radial-gradient(#111111 40%, transparent 40%);
+  background-size: 30px 6px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+#YellowBook {
+  background-color: #E3C90E;
+  color: white;
+  width: 380px;
+  height: 430px;
+  top: 145px;
+  left: 145px;
+  position: absolute;
+}
+
+#WhiteBox1 {
+  background-color: white;
+  color: rgb(96, 15, 140);
+  width: 290px;
+  height: 300px;
+  left: 50px;
+  top: 60px;
+  border: 3px rgb(96, 15, 140) solid;
+  position: relative;
+}
+
+#WhiteBox2 {
+  background-color: white;
+  color: rgb(96, 15, 140);
+  width: 260px;
+  height: 280px;
+  left: 65px;
+  top: -235px;
+  border: 3px rgb(96, 15, 140) solid;
+  position: relative;
+}
+
+#WhiteBox3 {
+  background-color: white;
+  color: rgb(96, 15, 140);
+  width: 240px;
+  height: 260px;
+  left: 75px;
+  top: -510px;
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 10px;
+  border: 2.5px rgb(96, 15, 140) solid;
+  position: relative;
+}
+
+#TextBox4 {
+  background-color: white;
+  color: black;
+/*   color: rgb(96, 15, 140); */
+  width: 220px;
+  height: 245px;
+  left: 85px;
+  top: -770px;
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 6px;
+  border: 2.5px white solid;
+  position: relative;
+}
+
+#TextBox4B {
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 15px;
+}
+
+#RedCircle {
+  width: 230px;
+  height: 115px;
+  top: 230px;
+  left: 350px;
+  background-color: red;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  position: absolute;
+  transform:rotate(-10deg);
+}
+
+#PagerBase {
+  background-color: black;
+  color: white;
+  width: 180px;
+  height: 60px;
+  border-radius: 20px;
+  font-size: 10px;
+  top: 10px;
+  left: 290px;
+  position:absolute;   
+}
+
+#PagerGlowFrame {
+  background-color: white;
+  color: white;
+  width: 170px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 10px;
+  top: 5px;
+  left: 5px;
+  position:absolute;   
+}
+
+#PagerGlowFrame:hover {
+/*   box-shadow: 0 0 30px rgba(255, 255, 255, 0.8); */
+  box-shadow: 0 0 30px rgba(240, 255, 240, 0.8); 
+}
+
+#PagerGlow {
+  background-color: white;
+  width: 160px;
+  height: 40px;
+  color: white;
+  border-radius: 20px;
+  font-size: 10px;
+  top: 5px;
+  left: 5px;
+  color: transparent;
+  position:absolute;   
+}
+#PagerGlow:hover {
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f0fff0;
+  color: black;
+/*   justify-content: center; */
+/*   align-items: right; */
+  text-align: center;
+  
+}
+
+/* #PagerText:hover{
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  top: 30px;
+  position:relative;
+}
+ */
+
+#PagerBottom {
+  background-color: black;
+  color: white;
+  width: 175px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 8px;
+  margin: 5px;
+  top: 40px;
+  left: -2px;
+  position:relative;
+  text-align: center;
+}
+
+
+
+#TextBox4:hover {
+  background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWRzaWRsaDV4dGJ1bjRjajd2aHA1NTdwY2xkdWlqN2E1enA3N3BhNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8FVyIQVBikuDY8lteO/giphy.gif');
+  background-position: center;
+  animation: crazy 2s;
+  color: transparent;
+}
+
