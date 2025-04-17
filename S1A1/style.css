@@ -1,0 +1,29 @@
+body {
+  font-family: system-ui;
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 5px;
+  padding-top: 10px;
+}
+
+
+h1 {
+  font-family: monospace;
+  color: pink;
+  font-size: 15px;
+}
+
+
+#info {
+  color: pink; 
+  font-size: 13px;
+  font-family: system-ui;
+}
+
+
+p {
+  padding: 0;
+  margin: 0;
+  line-height: 5.5px;
+}
