@@ -1,36 +1,31 @@
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-color: #f0f0f0;
-  }
-  
-  .button-container {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 20px;
-  }
-  
-  .emotion-btn {
-    font-size: 1.2em;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    color: white;
-    font-weight: bold;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-  
-  .joyful { background-color: #FFD700; }  /* Yellow */
-  .sad { background-color: #4169E1; }     /* Blue */
-  .angry { background-color: #FF4500; }   /* Red */
-  .anxious { background-color: #800080; } /* Purple */
-  
-  .emotion-btn:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-  }
-  
+  margin: 0;
+  overflow: hidden;
+  background: black;
+  background: ('#FFFFFF');
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+#ui {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+}
+
+button {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+button:hover {
+  background: rgb(255, 255, 255);
+}
