@@ -10,7 +10,8 @@ html, body {
 #Topwrapper {
     background-color: white;
     color: #945c38;
-    height: calc(100vh - 75px);
+    height: calc(100vh - 215px);
+    /* height:  */
     /* 100vh = the entire screen height, 100px tells comp to remove that from 100vh */
     /* height: 90vh; */
 }
@@ -18,65 +19,115 @@ html, body {
 
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Rubik", sans-serif;
     font-weight: normal;
     font-style: normal;
      /* font size will take up 10% of the total width */
     font-size: 5vw; 
     text-align: center;
-    padding-top: 270px;
+    padding-top: 145px;
     margin-bottom: 0;
-    color: #0E5959;
+    color: #D90404;
 }
 
 
 #introtext{
-    color: #e0af8e;;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: normal;
+    color: black;;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
     font-style: normal;
     font-size: 2vw; 
     margin-bottom: 50px;
     margin-top: 0px;
     text-align: center;  
     text-decoration: none;
-    color: #9bb3c2;
+    color: black;
     /* inherit makes it take the color of surrounding text */
     /* color: inherit; */
 }
 
 
-
 /*  */
 /*  */
-
-
 /* exclusively wraps the book  */
 #bookwrapper {
+    background-color: pink;
     display: flex;
     flex-wrap: wrap;
     width: 93%;
     margin: 0 auto;
+    position: sticky;
+    top: 0;
+    margin-bottom: 20px;
     /* margin - auto, helps it be center since it knows how wide it is  */
 }
 
 .booktile {
-    width: 15%;
+    width: 10%;
     padding: 4%;
     margin: 1%;
-    background-color:#E8D4C6;
+    background-color:black;
 }
 
 .booktile img {
     width: 100%;
 }
+
 /*  */
 /*  */
+
+
+#Scrollwrapper {
+    background-color: red;
+    color: white;
+    height: 25vw; 
+    position: sticky;
+    top: 0;
+    min-height: 850vh;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-style: normal;
+
+    font-size: 5vh; 
+    text-align: center;
+}
+
+/* .scroll-section {
+    height: 200vh;
+    padding: 2em;
+    background: #f4f4f4;
+    font-family: 'Rubik', sans-serif;
+  } */
+  
+  .sticky {
+    position: sticky;
+    z-index: 10;
+    padding: 10vh;
+    font-size: 3vh;
+  }
+
+  .spacer {
+    height: 50vh; /* Adds space to force scrolling */
+  }
+  
+  .hover-link {
+    color: #F56C79;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .hover-link:hover {
+    color: white;
+  }
+
+
 
 
 #Bottomwrapper {
-    background-color: whitesmoke;
-    color: #945c38;
+    background-color: red;
+    color: black;
+    position: sticky;
     /* height: 25vw;  */
     /* margin-top: 20px; */
     font-size: 10px;
@@ -182,7 +233,7 @@ table td {
 }
 
 #Bottomwrapper1 {
-    background-color: whitesmoke;
+    background-color: white;
     color: #945c38;
     height: 25vh;
     margin-top: 150px;
@@ -212,15 +263,19 @@ table td {
 
 
 
+
 /*  */
 /* Web ring !!  */
 /*  */
+
 #WR_container_wrapper {
-    margin-bottom: 20px;
+    margin-bottom: 2px;
+    min-height: 100px;
 }
 .smallimage {
     width: 100px;
-    margin-left: 45vw;
+    margin-left: 3vw;
+    margin-top: 2vw;
 
 }
 #defaultW {
@@ -235,14 +290,16 @@ table td {
     opacity: 0;
     width: 100px;
     position: absolute;
-    margin-left: 45vw;
+    margin-left: 3vw;
+    margin-top: 2vw;
     pointer-events: none;
 }
 .hoverR {
     opacity: 0;
     width: 100px;
     position: absolute;
-    margin-left: 45vw;
+    margin-left: 3vw;
+    margin-top: 2vw;
     pointer-events: none;
 }
 #defaultW:hover~.hoverW {
